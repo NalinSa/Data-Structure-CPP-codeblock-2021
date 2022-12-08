@@ -1,0 +1,1 @@
+ffmpeg -f gdigrab -r 2 -probesize 40M -threads 1 -i desktop -vcodec libx264 -b:v 256k C:\AP2\Quiz1Data\6330271121_quiz1_0.mp4
